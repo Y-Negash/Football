@@ -45,7 +45,7 @@ SELECT DISTINCT hometeam FROM matches WHERE hometeam LIKE '%City%';
 6) How many different teams have played in matches recorded in a French division?
 
 ```sql
-SELECT code FROM divisions WHERE country = 'France'
+SELECT code FROM divisions WHERE country = 'France';
 SELECT COUNT(DISTINCT hometeam) FROM matches WHERE division_code = 'F1' OR division_code = 'F2';
 
 ```
